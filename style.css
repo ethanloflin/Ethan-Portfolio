@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+    font-family: "TitilliumWeb";
+    src: url(content/titillium-web/TitilliumWeb-Light.ttf);
+}
+
+@font-face {
+    font-family: "TuskerGrotesk";
+    src: url(content/tusker-grotesk-font/TuskerGrotesk-3500Medium.ttf);
+}
+
+.menu-container{
+    background-color: blanchedalmond;
+    color: rgb(119, 75, 34);
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.name-container {
+background-color: #768da4;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 100px;   
+color: rgba(255, 235, 205, 0.812);
+}
+
+.ethan-name {
+    display: flex;
+    font-family: "TuskerGrotesk";
+    justify-content: flex-start ;
+    font-size: 90px;
+    padding-left: 20px;
+    flex-direction: column;
+}
+
+.titles {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-family: "TitilliumWeb" ;
+}
+
+a {
+    font-family: "TitilliumWeb";
+}
+
+.discord,
+.github
+    {
+    height: 25px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.me {
+    font-family: "TitilliumWeb";
+    font-size: 50px;
+    justify-content: flex-end;
+    padding-left: 200px;
+}
